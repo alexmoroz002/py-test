@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from square.triangle import Triangle
+from python_square.triangle import Triangle
 
 
 class TestTriangle(TestCase):

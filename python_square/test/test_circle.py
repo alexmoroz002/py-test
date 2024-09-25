@@ -1,7 +1,6 @@
-import math
 from unittest import TestCase
 
-from square.circle import Circle
+from python_square.circle import Circle
 
 
 class TestCircle(TestCase):
