@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpSquare", "CsharpSquare\CsharpSquare.csproj", "{49BB315D-9EE4-4945-8678-A62F4E60862C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpSquare.Tests", "CsharpSquare.Tests\CsharpSquare.Tests.csproj", "{0A657DE7-9DCE-402A-A066-E984D1B0FE21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49BB315D-9EE4-4945-8678-A62F4E60862C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49BB315D-9EE4-4945-8678-A62F4E60862C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49BB315D-9EE4-4945-8678-A62F4E60862C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49BB315D-9EE4-4945-8678-A62F4E60862C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A657DE7-9DCE-402A-A066-E984D1B0FE21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A657DE7-9DCE-402A-A066-E984D1B0FE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A657DE7-9DCE-402A-A066-E984D1B0FE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A657DE7-9DCE-402A-A066-E984D1B0FE21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
