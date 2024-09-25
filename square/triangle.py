@@ -1,6 +1,6 @@
 import math
 
-from i_figure import IFigure
+from square.i_figure import IFigure
 
 class Triangle(IFigure):
     def __init__(self, a, b, c):
