@@ -7,10 +7,11 @@ from square.circle import Circle
 class TestCircle(TestCase):
     def test_square_ok(self):
         params = [0.1, 5, 10000.003]
-        for radius in params:
-            with self.subTest(radius):
+        res = [0.0314, 78.5398, 314159453.8546]
+        for radius, real_square in zip(params, res):
+            with self.subTest(radius, real_square=real_square):
                 circle = Circle(radius)
-                self.assertAlmostEqual(circle.square, radius**2 * math.pi, delta=0.0001)
+                self.assertAlmostEqual(circle.square, real_square, delta=0.0001)
 
     def test_radius_zero(self):
         self.assertRaises(AssertionError, Circle, 0)

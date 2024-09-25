@@ -12,9 +12,9 @@ class TestTriangle(TestCase):
                 triangle = Triangle(*sides)
                 self.assertAlmostEqual(triangle.square, real_square, delta=0.0001)
 
-    def test_triangle_square(self):
+    def test_triangle_right(self):
         a, b, c = 3, 4, 5
-        self.assertEqual(Triangle(a, b, c).is_square, True)
+        self.assertTrue(Triangle(a, b, c).is_right)
 
     def test_sides_incorrect(self):
         a, b, c = 1, 2, 3
